@@ -215,7 +215,7 @@ function twentyfourteen_font_url() {
 	}
 	
 	// hacked by litao begin
-	$font_url = './static/fonts.css';	
+	$font_url = '/static/fonts.css';	
 	// hacked by litao end
 
 	return $font_url;
