@@ -213,6 +213,10 @@ function twentyfourteen_font_url() {
 	if ( 'off' !== _x( 'on', 'Lato font: on or off', 'twentyfourteen' ) ) {
 		$font_url = add_query_arg( 'family', urlencode( 'Lato:300,400,700,900,300italic,400italic,700italic' ), "//fonts.googleapis.com/css" );
 	}
+	
+	// hacked by litao begin
+	$font_url = 'static/fonts.css';	
+	// hacked by litao end
 
 	return $font_url;
 }
