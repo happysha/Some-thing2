@@ -600,6 +600,10 @@ function wp_default_styles( &$styles ) {
 
 		// Hotlink Open Sans, for now
 		$open_sans_font_url = "//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600&subset=$subsets";
+
+		//litao hack begin
+		$open_sans_font_url ="/static/fonts-open-sans.css";
+		//litao hack end
 	}
 
 	// Register a stylesheet for the selected admin color scheme.
