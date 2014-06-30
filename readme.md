@@ -1,4 +1,5 @@
-[![WordPress](wp-admin/images/wordpress-logo.png)](https://wordpress.org/)  Version 3.9.1
+[![WordPress](wp-admin/images/wordpress-logo.png)](https://wordpress.org/)  
+Version 3.9.1
 ============================================================================
 
 Semantic Personal Publishing Platform
